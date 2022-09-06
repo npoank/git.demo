@@ -9,6 +9,7 @@ public class ProducerConsumerTest1 {
     private static BlockingQueue queue = new ArrayBlockingQueue<>(10);
 
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("Hello, JAVA !!!");
         Thread thread1 = new Thread(new Runnable() {
             @Override
             public void run() {
